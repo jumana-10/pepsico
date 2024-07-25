@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+html {
+    /* font-size: 62.5%; */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: 'Merienda', cursive; */
+    /* font-family: "Nunito Sans", sans-serif; */
+    font-family: "Barlow", sans-serif;
+}
+
+:root {
+    --primaryColor: #ffffff;
+    --secondaryColor: #f3c326;
+    --fontColor: #1c3c74;
+    --textColor: #9299a9;
+    --lightColor: #FFFFFF;
+    --headingFont: 54px;
+    --sebHeadingFont: 18px;
+    --paragraph: 16px;
+    --linkButton: 16px;
+    --contactHeight: 5vh
+}
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentSpacing {
+    padding-top: 3rem;
+}
+
+/* Default code */
+
+/* Project code */
+
+/* parent container */
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+/* parent container end */
+
+/* grid */
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* grid end */
+
+/* flex */
+.d-flexNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.d-flex-col-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.d-flex-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.d-flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+/* flex end */
+
+/* navbar */
+
+.navContainer {
+    background-color: gray;
+}
+
+.navBar {
+    width: 100%;
+    position: fixed;
+}
+
+.logoImage img {
+    height: 90px;
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.navLinksContainer {
+    /* background-color: brown; */
+}
+
+.navLinks {
+    /* background-color:aqua ; */
+    width: 65%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navLinks li {
+    list-style-type: none;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navLinks li i {
+    font-size: 12px;
+}
+
+.searchContainer {
+}
+
+.search {
+    padding-right: 25px;
+    width: 80%;
+    font-size: 16px;
+}
+
+.search li {
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.search li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+} 
+
+.fa-globe {
+    padding-right: 8px;
+}
+/* nav end */
+
+/* Hero section*/
+
+.heroSection {
+    background: url(./assets/images/pepsico.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 250px 0;
+}
+
+.jumbotron {
+    font-size: 1.7rem;
+    padding: 0 15% 0 25%;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+
