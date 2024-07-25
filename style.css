@@ -138,13 +138,21 @@ footer {
 
 /* navbar */
 
+.header {
+    background: url(./assets/images/pepsico.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
 .navContainer {
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 .navBar {
-    width: 100%;
-    position: fixed;
+    /* width: 100%;
+    position: fixed; */
 }
 
 .logoImage img {
@@ -205,19 +213,20 @@ footer {
 
 /* Hero section*/
 
-.heroSection {
+/* .heroSection {
     background: url(./assets/images/pepsico.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     padding: 250px 0;
-}
+} */
 
 .jumbotron {
     font-size: 1.7rem;
     padding: 0 15% 0 25%;
     color: #ffffff;
     font-family: "Poppins", sans-serif;
+    margin-top: 10%;
 }
 
 
